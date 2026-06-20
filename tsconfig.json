@@ -8,5 +8,5 @@
 	"skipLibCheck": true,
 	"strict": true
   },
-  "include": ["cypress/**/*.ts"]
+  "include": ["cypress/**/*.ts", "cypress/e2e/sweetshop.cy.js"]
 }
