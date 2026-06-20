@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 import { BASKET, itemSelector } from './selectors'
 
 export interface BasketItem {

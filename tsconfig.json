@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-	"target": "ES6",
-	"lib": ["ES6", "dom"],
-	"types": ["cypress"],
-	"module": "commonjs",
-	"esModuleInterop": true,
-	"skipLibCheck": true,
-	"strict": true
+    "target": "ES6",
+    "lib": ["ES6", "dom"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
   },
-  "include": ["cypress/**/*.ts", "cypress/e2e/sweetshop.cy.js"]
+  "include": [
+    "node_modules/cypress/types/index.d.ts",
+    "cypress/**/*.ts"
+  ]
 }

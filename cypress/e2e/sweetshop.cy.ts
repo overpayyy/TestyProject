@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 import { NAV, HOME, SWEETS, BASKET, itemSelector } from '../support/selectors'
 import { BasketItem, AddressData } from '../support/commands'
 
